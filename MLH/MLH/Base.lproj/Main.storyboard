@@ -33,20 +33,37 @@
                                     <constraint firstAttribute="height" constant="112" id="CBm-Tj-Je0"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXT-fm-Ve7">
+                                <rect key="frame" x="0.0" y="325" width="320" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="JNr-MN-UT7"/>
+                                    <constraint firstAttribute="height" constant="93" id="xQJ-0t-R7F"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="loginwithtwitterbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="SXT-fm-Ve7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="0F2-lE-BIO"/>
                             <constraint firstItem="QsV-IV-jW6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="5oN-CL-rgX"/>
                             <constraint firstItem="v4m-Iq-UpY" firstAttribute="top" secondItem="QsV-IV-jW6" secondAttribute="bottom" constant="-164" id="6w8-bE-g2P"/>
+                            <constraint firstItem="SXT-fm-Ve7" firstAttribute="top" secondItem="v4m-Iq-UpY" secondAttribute="bottom" constant="-243" id="FEM-50-GKz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="v4m-Iq-UpY" secondAttribute="trailing" constant="-16" id="NGh-hC-S3a"/>
                             <constraint firstItem="v4m-Iq-UpY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Pz9-7Q-zr9"/>
                             <constraint firstAttribute="centerX" secondItem="QsV-IV-jW6" secondAttribute="centerX" id="Y9i-uG-gYD"/>
+                            <constraint firstAttribute="centerX" secondItem="SXT-fm-Ve7" secondAttribute="centerX" id="eQk-14-k88"/>
                             <constraint firstAttribute="centerX" secondItem="v4m-Iq-UpY" secondAttribute="centerX" id="ft5-pT-6vm"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="QsV-IV-jW6" secondAttribute="bottom" constant="404" id="g3J-cz-jjz"/>
                             <constraint firstItem="v4m-Iq-UpY" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="hcz-Ha-8Lz"/>
                             <constraint firstItem="QsV-IV-jW6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="23" id="i1H-KN-JKW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SXT-fm-Ve7" secondAttribute="trailing" constant="-16" id="q7w-q1-850"/>
+                            <constraint firstItem="SXT-fm-Ve7" firstAttribute="top" secondItem="QsV-IV-jW6" secondAttribute="bottom" constant="161" id="qBJ-Hh-RkT"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="SXT-fm-Ve7" secondAttribute="bottom" constant="150" id="rEe-Yo-KqZ"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="v4m-Iq-UpY" secondAttribute="bottom" id="sIp-he-0cA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QsV-IV-jW6" secondAttribute="trailing" constant="22" id="wtv-qs-t6O"/>
+                            <constraint firstItem="SXT-fm-Ve7" firstAttribute="top" secondItem="QsV-IV-jW6" secondAttribute="bottom" constant="161" id="zOe-xY-RKD"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -57,6 +74,7 @@
     </scenes>
     <resources>
         <image name="login_backgorund" width="320" height="568"/>
+        <image name="loginwithtwitterbutton" width="736" height="185"/>
         <image name="mlhlogo" width="399" height="168"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
