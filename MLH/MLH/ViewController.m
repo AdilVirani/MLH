@@ -7,16 +7,18 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "STTwitter.h"
+#import "WebViewVC.h"
+#import <Accounts/Accounts.h>
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.signInButton.layer.cornerRadius = 10;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)signInButtonWasHit:(id)sender {
+[self performSegueWithIdentifier: @"main" sender: self];
+}
 @end
